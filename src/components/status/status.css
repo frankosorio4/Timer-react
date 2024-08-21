@@ -1,0 +1,25 @@
+.container--status{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.container--status::before{
+    content: '';
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    background-color: var(--table-header);
+}
+
+.container--status.green::before {
+    background: var(--green-500);
+}
+
+.container--status.pink::before {
+    background: var(--pink-500);
+}
+
+.container--status.orange::before {
+    background: var(--orange-500);
+}

@@ -1,4 +1,4 @@
-
+import {Timer, ScrollText} from 'lucide-react'
 import './header.css'
 
 export function Header(){
@@ -6,8 +6,8 @@ export function Header(){
         <header className='container--header'>
             <img src="/Logo.png" alt="Logotipo do lab timer 365" />
             <nav>
-                <a href="">Home</a>
-                <a href="">Historico</a>
+                <a href="#"><Timer size={24}/></a>
+                <a href="#"><ScrollText size={24}/></a>
             </nav>
         </header>
     )

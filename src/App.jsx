@@ -1,12 +1,13 @@
-import {HomePage} from './Pages/home'
-import {Header} from './components/header/header'
-import {Layout} from './template'
+import { HomePage } from './Pages/home'
+import { HistoryPage } from './Pages/history'
+import { Layout } from './template'
 
 function App() {
   return (
     <div>
       <Layout>
-        <HomePage/>
+        {/* <HomePage /> */}
+        <HistoryPage/>
       </Layout>
     </div>
   )
